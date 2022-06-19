@@ -3,7 +3,8 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-
+const hartMe = document.getElementsByClassName("like-glyph")
+hartMe.addEventListener('click',  mimicServerCall)
 
 
 
